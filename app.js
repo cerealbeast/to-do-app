@@ -12,6 +12,7 @@ function onReady(){
       const NEW_LI = document.createElement('li');
       const CHECKBOX = document.createElement('input');
       CHECKBOX.type = "checkbox";
+      localStorage.setItem("checkbox", JSON.stringify('input'));
 
       const DELETE_BTN = document.createElement('button');
       DELETE_BTN.textContent = "Delete!";
